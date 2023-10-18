@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #009900; /* Darker green link color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+h1 {
+  color: #009900; /* Darker green header color */
+}
+
+h2 {
+  color: #009900; /* Darker green header color */
+}
+
+/* Canvas Styles */
+#colorChart {
+  background-color: #222;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #555;
+}
+
+tr:nth-child(odd) {
+  background-color: #444;
+}
+
+/* Form Styles */
+form {
+  background-color: #444;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+label {
+  color: #009900; /* Darker green label color */
+}
+
+input[type="text"] {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #009900; /* Darker green button background color */
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006600; /* Even darker green on hover */
+}
+
+
+.logo {
+  color: #00ff00; /* Green logo color */
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00ff00; /* Green link color on hover */
+}

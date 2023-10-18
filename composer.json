@@ -1,0 +1,17 @@
+{
+    "name": "adamm/php-to-do",
+    "autoload": {
+        "psr-4": {
+            "Adamm\\PhpToDo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beuhnnyto",
+            "email": "adam.malek@efrei.net"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.7"
+    }
+}
